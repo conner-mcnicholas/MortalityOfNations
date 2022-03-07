@@ -6,7 +6,7 @@ pd.options.display.html.table_schema = True
 pd.options.display.max_rows = None
 
 #All countries
-fullstats = './fullstatscmp.csv'
+fullstats = './fullstats.csv'
 dff = pd.read_csv(fullstats)
 dff
 
